@@ -12,6 +12,8 @@ const app = express();
 // connect Express with Apollo
 server.applyMiddleware({ app });
 
+app.use('/', (req, res) => res.send("Welcome Push User"));
+
 app.listen({ port:process.env.PORT || 4000 }, () =>
   console.log(`🚀 Server ready at` + ":"),
 );
