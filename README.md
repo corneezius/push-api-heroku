@@ -1,12 +1,6 @@
 # Push Pirates API
 
 
-**
-Heroku:
-
-email:cfr2116@columbia.edu
-pw:letscodeV5!
-
 
 **Technologies used:**
 
